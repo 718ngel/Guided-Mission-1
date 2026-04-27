@@ -1,0 +1,7 @@
+colab-biolab/
+*.bam
+*.bai
+*.tar
+*.gtf
+*.gtf.gz
+data/read-counts.txt
