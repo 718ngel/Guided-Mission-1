@@ -13,8 +13,9 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+ROOT = os.path.join(os.path.dirname(__file__), "..")
+DATA_DIR = os.path.join(ROOT, "data")
+OUTPUT_DIR = os.path.join(ROOT, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 LOCALIZATION_URL = "https://hyeshik.qbio.io/binfo/mouselocalization-20210507.txt"

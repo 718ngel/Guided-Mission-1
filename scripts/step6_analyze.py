@@ -9,8 +9,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
-OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+ROOT = os.path.join(os.path.dirname(__file__), "..")
+DATA_DIR = os.path.join(ROOT, "data")
+OUTPUT_DIR = os.path.join(ROOT, "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Load counts
