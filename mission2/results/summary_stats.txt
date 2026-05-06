@@ -1,0 +1,7 @@
+RPF 5'-end profile around start codons – summary stats
+=======================================================
+  total_5end_counts_in_window              974904
+  peak_position_nt                         -12
+  peak_count                               58688
+  mean_count_per_position                  4850.3
+  positions_with_nonzero_count             201
