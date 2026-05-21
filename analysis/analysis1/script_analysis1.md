@@ -60,6 +60,12 @@ Read `analysis/docs/REPORT.md` in full. Extract all information relevant to Anal
 
 All work for this analysis must live in `analysis/analysis1/`. Create the following sub-structure if it does not already exist:
 
+> **Data reuse rule:** If any input data (e.g. `read-counts.txt`, localization files, BAM files) already exists in a parent folder (`analysis/`, `mission1/`, `mission2/`, `mission3/`, etc.), do **not** reference those paths directly from the script. Instead, copy the required files into `analysis/analysis1/` before running anything:
+> ```bash
+> cp <source_path_in_parent_folder> analysis/analysis1/<destination>
+> ```
+> This keeps the analysis self-contained, reproducible, and correctly tracked by Git under `analysis/analysis1/`.
+
 ```
 analysis/analysis1/
 ├── REPORT1.md          ← written by you before executing anything
