@@ -1,0 +1,14 @@
+=== Analysis 2: Ribosome Triplet Phasing ===
+
+Window: -50 to 100 nt around start codon
+Total reads in profile: 887,996
+
+Frame phasing (0–99 nt, CDS region):
+  Frame 0 (in-frame): 257,296  (51.8%)
+  Frame 1 (+1 shift): 44,654  (9.0%)
+  Frame 2 (+2 shift): 194,433  (39.2%)
+
+Chi-square test: χ² = 144247.7397, p = 0.000000e+00
+
+FFT period-3 power fraction: 11.36%
+Autocorrelation at lag 3: 0.5745
